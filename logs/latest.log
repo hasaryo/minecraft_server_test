@@ -1,0 +1,223 @@
+[17:43:40] [main/INFO]: Loading Minecraft 1.18.2 with Fabric Loader 0.15.9
+[17:43:40] [ForkJoinPool-1-worker-3/WARN]: Mod fabrishot uses the version ${version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '${version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[17:43:40] [ForkJoinPool-1-worker-4/WARN]: Mod registrate-fabric uses the version MC1.18.2-1.1.11 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'MC1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[17:43:41] [main/INFO]: Loading 86 mods:
+	- betteradvancements 0.2.0.146
+	- cloth-config 6.4.90
+	   \-- cloth-basic-math 0.6.1
+	- clumps 8.0.0+17
+	- create 0.5.1-f-build.1333+mc1.18.2
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 0.6.10-39
+	   |-- forge_tags 2.1
+	   |-- forgeconfigapiport 3.2.4
+	   |    |-- com_electronwill_night-config_core 3.6.5
+	   |    \-- com_electronwill_night-config_toml 3.6.5
+	   |-- milk 0.3.2
+	   |    \-- dripstone_fluid_lib 1.2.0
+	   |-- porting_lib 1.2.1271-beta+1.18.2
+	   |    |-- forge_tags 2.1
+	   |    |-- mm 2.3
+	   |    \-- serialization_hooks 0.3.23
+	   |-- reach-entity-attributes 2.1.1
+	   \-- registrate-fabric MC1.18.2-1.1.11
+	        \-- forge_tags 2.1
+	- dcch 1.0
+	- debugify 1.11.0
+	- fabric-api 0.77.0+1.18.2
+	   |-- fabric-api-base 0.4.5+64b7c69360
+	   |-- fabric-api-lookup-api-v1 1.6.3+2373a54560
+	   |-- fabric-biome-api-v1 8.0.7+e83becad60
+	   |-- fabric-block-api-v1 1.0.0+ee3621fc60
+	   |-- fabric-blockrenderlayer-v1 1.1.13+3ac43d9560
+	   |-- fabric-command-api-v1 1.1.10+d7c144a860
+	   |-- fabric-commands-v0 0.2.9+b4f4f6cd60
+	   |-- fabric-containers-v0 0.1.24+d7c144a860
+	   |-- fabric-content-registries-v0 3.1.3+c85f2e3860
+	   |-- fabric-convention-tags-v1 1.1.0+43ce63a460
+	   |-- fabric-crash-report-info-v1 0.2.1+ee261a3e60
+	   |-- fabric-data-generation-api-v1 3.1.0+6c70b68e60
+	   |-- fabric-dimensions-v1 2.1.21+489d6f8260
+	   |-- fabric-entity-events-v1 1.4.9+d7c144a860
+	   |-- fabric-events-interaction-v0 0.4.20+d7c144a860
+	   |-- fabric-events-lifecycle-v0 0.2.22+d7c144a860
+	   |-- fabric-game-rule-api-v1 1.0.13+d7c144a860
+	   |-- fabric-item-api-v1 1.6.2+8165403660
+	   |-- fabric-item-groups-v0 0.3.16+91896a4960
+	   |-- fabric-key-binding-api-v1 1.0.12+54e5b2ec60
+	   |-- fabric-keybindings-v0 0.2.10+b4f4f6cd60
+	   |-- fabric-lifecycle-events-v1 2.1.1+cc71601c60
+	   |-- fabric-loot-api-v2 1.1.2+1997ad1260
+	   |-- fabric-loot-tables-v1 1.1.4+e747827960
+	   |-- fabric-mining-level-api-v1 2.1.6+cc71601c60
+	   |-- fabric-models-v0 0.3.7+d7c144a860
+	   |-- fabric-networking-api-v1 1.0.24+2d30af4b60
+	   |-- fabric-networking-v0 0.3.11+b4f4f6cd60
+	   |-- fabric-object-builder-api-v1 2.1.5+032c981d60
+	   |-- fabric-particles-v1 0.2.13+526dc1ac60
+	   |-- fabric-registry-sync-v0 0.9.12+bb2e047760
+	   |-- fabric-renderer-api-v1 0.5.0+bf48649860
+	   |-- fabric-renderer-indigo 0.6.1+03e2b68760
+	   |-- fabric-renderer-registries-v1 3.2.13+b4f4f6cd60
+	   |-- fabric-rendering-data-attachment-v1 0.3.9+ee3621fc60
+	   |-- fabric-rendering-fluids-v1 2.0.3+54e5b2ec60
+	   |-- fabric-rendering-v0 1.1.15+b4f4f6cd60
+	   |-- fabric-rendering-v1 1.11.0+b7f3cf3460
+	   |-- fabric-resource-conditions-api-v1 2.0.3+91b7aa6660
+	   |-- fabric-resource-loader-v0 0.5.3+047a5ecb60
+	   |-- fabric-screen-api-v1 1.0.11+d882b91560
+	   |-- fabric-screen-handler-api-v1 1.2.3+1f6558e860
+	   |-- fabric-textures-v0 1.0.13+3ac43d9560
+	   |-- fabric-transfer-api-v1 1.6.4+f4563ac860
+	   \-- fabric-transitive-access-wideners-v1 1.1.0+e747827960
+	- fabric-language-kotlin 1.8.3+kotlin.1.7.10
+	   |-- org_jetbrains_kotlin_kotlin-reflect 1.7.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 1.7.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.7.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.7.10
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.18.3
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.6.4
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.6.4
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.4.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.4.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.4.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.4.0
+	- fabricloader 0.15.9
+	   \-- mixinextras 0.3.5
+	- farsight 1.18-1.9
+	- ferritecore 4.2.1
+	- java 21
+	- jei 10.2.1.1006
+	- lazydfu 0.1.2
+	- lithium 0.7.10
+	- mcwbridges 3.0.0
+	- memoryleakfix 1.18.2-0.7.0
+	- minecraft 1.18.2
+	- mixintrace 1.1.1+1.17
+	- notenoughanimations 1.7.1
+	- optigui 1.1.0
+	   \-- org_apache_commons_commons-text 1.9
+	- smoothboot 1.18.2-1.7.0
+	- spark 1.10.39
+	   \-- fabric-permissions-api-v0 0.1-SNAPSHOT
+	- starlight 1.0.2+fabric.89b8d9f
+	- yosbr 0.1.1
+[17:43:41] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/User/Desktop/server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[17:43:41] [main/INFO]: Compatibility level set to JAVA_16
+[17:43:41] [main/INFO]: Compatibility level set to JAVA_17
+[17:43:42] [main/INFO]: Preloading Debugify
+[17:43:42] [main/INFO]: Done.
+[17:43:42] [main/INFO]: Loaded configuration file for Lithium: 102 options available, 1 override(s) found
+[17:43:43] [main/WARN]: Error loading class: net/minecraft/class_572 (java.lang.ClassNotFoundException: net/minecraft/class_572)
+[17:43:43] [main/WARN]: @Mixin target net.minecraft.class_572 was not found porting_lib.mixins.common.json:accessor.HumanoidModelAccessor from mod porting_lib
+[17:43:43] [main/WARN]: Error loading class: net/minecraft/class_338 (java.lang.ClassNotFoundException: net/minecraft/class_338)
+[17:43:43] [main/WARN]: @Mixin target net.minecraft.class_338 was not found dcch.mixins.json:DCCHMixin from mod dcch
+[17:43:43] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[17:43:43] [main/WARN]: Error loading class: net/minecraft/class_5616 (java.lang.ClassNotFoundException: net/minecraft/class_5616)
+[17:43:43] [main/WARN]: @Mixin target net.minecraft.class_5616 was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
+[17:43:44] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[17:43:44] [main/INFO]: Smooth Boot config initialized
+[17:43:58] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[17:43:58] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[17:43:58] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[17:43:58] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[17:43:58] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[17:43:59] [main/INFO]: Successfully Debugify'd your game!
+[17:43:59] [main/INFO]: Proudly fixes 33 bugs!
+[17:43:59] [main/INFO]: farsight mod initialized
+[17:43:59] [main/INFO]: Definitely not up to no good
+[17:43:59] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: java.net.ConnectException
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:951)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at dev.isxander.debugify.api.updater.UpdateChecker.getLatestVersion(UpdateChecker.java:26)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at dev.isxander.debugify.Debugify.lambda$onInitialize$0(Debugify.java:37)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: Caused by: java.net.ConnectException
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1028)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:430)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:134)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:386)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:570)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:299)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1047)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	... 10 more
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: Caused by: java.nio.channels.UnresolvedAddressException
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/sun.nio.ch.Net.checkAddress(Net.java:137)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/sun.nio.ch.Net.checkAddress(Net.java:145)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+[17:43:59] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	... 33 more
+[17:44:01] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:44:01] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:44:01] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:44:01] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:44:01] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:44:01] [main/WARN]: Ambiguity between arguments [create, coupling, add, cart1] and [create, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:44:01] [main/WARN]: Ambiguity between arguments [create, coupling, add, carts] and [create, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:44:01] [main/WARN]: Ambiguity between arguments [create, coupling, add, cart1] and [create, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:44:01] [main/WARN]: Ambiguity between arguments [create, coupling, add, carts] and [create, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:44:02] [Worker-Main-3/ERROR]: Couldn't load tag minecraft:combination_step_sound_blocks as it is missing following references: #minecraft:wool_carpets (from Macaw's Bridges)
+[17:44:02] [Worker-Main-3/INFO]: Loaded 22 recipes
+[17:44:03] [Worker-Main-3/INFO]: Loaded 2258 advancements
+[17:44:06] [main/INFO]: Applied 105 biome modifications to 55 of 61 new biomes in 21.51 ms
+[17:44:06] [Server thread/INFO]: Starting background profiler...
+[17:44:06] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[17:44:06] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[17:44:06] [Server thread/INFO]: Loading properties
+[17:44:06] [Server thread/INFO]: Default game type: SURVIVAL
+[17:44:06] [Server thread/INFO]: Generating keypair
+[17:44:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:44:07] [Server thread/INFO]: Using default channel type
+[17:44:07] [Server thread/INFO]: Preparing level "world"
+[17:44:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:44:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:44:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:44:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:44:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:44:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:44:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:44:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:44:11] [Worker-Main-2/INFO]: Preparing spawn area: 3%
+[17:44:12] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[17:44:12] [Worker-Main-2/INFO]: Preparing spawn area: 7%
+[17:44:13] [Worker-Main-1/INFO]: Preparing spawn area: 33%
+[17:44:13] [Worker-Main-3/INFO]: Preparing spawn area: 57%
+[17:44:14] [Server thread/INFO]: Time elapsed: 6198 ms
+[17:44:14] [Server thread/INFO]: [STDERR]: java.lang.NoSuchFieldException: NO_GROUP
+[17:44:14] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[17:44:14] [Server thread/INFO]: [STDERR]: 	at ca.fxco.memoryleakfix.MemoryLeakFix.forceLoadAllMixinsAndClearSpongePoweredCache(MemoryLeakFix.java:27)
+[17:44:14] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.handler$bdf000$memoryleakfix$onFinishedLoadingWorlds(MinecraftServer.java:4781)
+[17:44:14] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_3735(MinecraftServer.java:345)
+[17:44:14] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3176.method_3823(class_3176.java:180)
+[17:44:14] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:670)
+[17:44:14] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:273)
+[17:44:14] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[17:44:14] [Server thread/INFO]: Done (7.100s)! For help, type "help"
